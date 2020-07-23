@@ -21,7 +21,7 @@ export default function App() {
   if(!fontLoaded){
     return (
       <AppLoading
-        startAsync={fetchFonts}
+        startAsync={()=>fetchFonts}
         onFinish={()=>setFontLoaded(true)}
       />
     )
