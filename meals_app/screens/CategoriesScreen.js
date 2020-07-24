@@ -1,5 +1,5 @@
 import React from 'react';
-import { FlatList, StyleSheet } from 'react-native';
+import { FlatList } from 'react-native';
 import { CATEGORIES } from '../data/dummy-data';
 import CategoryGridTile from '../components/CategoryGridTile';
 
@@ -13,7 +13,7 @@ const CategoriesScreen = props => {
                     props.navigation.navigate({
                         routeName:'CategoryMeals', 
                         params: { categoryId: itemData.item.id }
-                        })
+                    })
                 }
             }/>
             )
