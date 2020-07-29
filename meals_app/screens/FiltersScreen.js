@@ -6,7 +6,8 @@ import HeaderButton from '../components/HeaderButton';
 const FiltersScreen = props => {
     return (
         <View style={styles.screen}>
-            <Text>Filters Screen</Text>
+            <Text style={styles.title}>Available Filters / Restrictions </Text>
+            <View></View>
         </View>
     )
 };
