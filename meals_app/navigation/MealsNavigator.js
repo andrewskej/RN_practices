@@ -76,7 +76,7 @@ const FiltersNavigator = createStackNavigator({
 },     
 {
     navigationOptions: {
-        drawerLabel: 'Fuk'
+        drawerLabel: 'Filters'
     },
     defaultNavigationOptions: defaultStackNavOptions
 });
@@ -93,5 +93,4 @@ const MainNavigator = createDrawerNavigator({
 });
 
 
-// export default createAppContainer(MealsFavTabNavigator);
-export default createAppContainer(MainNavigator); //FUCK this
+export default createAppContainer(MainNavigator); 
