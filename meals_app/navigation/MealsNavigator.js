@@ -93,5 +93,5 @@ const MainNavigator = createDrawerNavigator({
 });
 
 
-export default createAppContainer(MealsFavTabNavigator);
-// export default createAppContainer(MainNavigator); //FUCK this
+// export default createAppContainer(MealsFavTabNavigator);
+export default createAppContainer(MainNavigator); //FUCK this
