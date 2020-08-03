@@ -8,8 +8,8 @@ import { createStore, combineReducers } from 'redux';
 import { Provider } from 'react-redux';
 import mealsReducer from './store/reducers/meals';
 
-// enableScreens();
-useScreens();
+enableScreens();
+// useScreens();
 
 const rootReducer = combineReducers({
   meals: mealsReducer
